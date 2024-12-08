@@ -1,4 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata, Viewport } from "next";
 import { Nunito } from "next/font/google";
 
@@ -7,7 +8,7 @@ import { HeartsModal } from "@/components/modals/hearts-modal";
 import { PracticeModal } from "@/components/modals/practice-modal";
 import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config";
-import { Analytics } from "@vercel/analytics/react"
+
 
 import "./globals.css";
 
