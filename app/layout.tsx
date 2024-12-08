@@ -43,6 +43,7 @@ export default function RootLayout({
           <HeartsModal />
           <PracticeModal />
           {children}
+          <Analytics/>
         </body>
       </html>
     </ClerkProvider>
