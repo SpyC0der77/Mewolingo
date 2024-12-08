@@ -45,6 +45,7 @@ export default function RootLayout({
           {children}
           <Analytics/>
         </body>
+        <script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
       </html>
     </ClerkProvider>
   );
